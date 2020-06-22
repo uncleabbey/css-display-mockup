@@ -1,0 +1,43 @@
+root {
+box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+body {
+	background: #364371;
+	padding: 0;
+	margin: 0;
+}
+#wrap {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+
+#nav {
+	flex: 1;
+	background: #b0cfff;
+	padding: 40px;
+}
+
+#content {
+	flex: 5;
+	background: #5b7fbd;
+	text-align: center;
+	padding: 20px 20px 0 20px;
+}
+#content ul>li {
+	list-style-type: none;
+}
+#content p:first-of-type {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.copyright {
+	position: relative;
+	top: 40px;
+}
